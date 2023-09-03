@@ -36,7 +36,7 @@ Este aplicativo Android permite a realização de buscas em largura (BFS) e em p
 4. Aguarde o Android Studio importar o projeto e resolver quaisquer dependências ausentes.
 5. Após a importação bem-sucedida, você pode executar o projeto clicando no botão "Run" (Executar) na barra de ferramentas do Android Studio. Certifique-se de ter um dispositivo Android conectado ao computador ou um emulador configurado para testar o aplicativo.
 
-Agora você está pronto para começar a trabalhar com o projeto no Android Studio!
+  Agora você está pronto para começar a trabalhar com o projeto no Android Studio!
 
 
 ## Autor
