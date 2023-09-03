@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_limpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:onClick="limpar"
+        android:text="Limpar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_largura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:onClick="largura"
+        android:text="Largura"
+        app:layout_constraintEnd_toStartOf="@+id/bt_profundidade"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_profundidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:onClick="profundidade"
+        android:text="Profundidade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_profundidade">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt01"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt02"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt03"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt04"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt05"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt06"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt11"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt12"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt13"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt14"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt15"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt16"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt21"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt22"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt23"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt24"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt25"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt26"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt31"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt32"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt33"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt34"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt35"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt36"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt41"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt42"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt43"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt44"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt45"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt46"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt51"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt52"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt53"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt54"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt55"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt56"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt61"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt62"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt63"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt64"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt65"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+
+            <Button
+                android:id="@+id/bt66"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#CC9BDA"
+                android:onClick="onClick"
+                app:backgroundTintMode="multiply" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
